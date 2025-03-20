@@ -26,7 +26,7 @@ export default function Commit() {
         <li style={{ margin: '20px 0px 5px 0px' }}>Enter the following commands (click to copy).</li><br/>
         <div className='cmdline' style={{ margin: '-20px 5px 5px 5px' }} onClick={(ev) => {copyCode(`git add .`)}}>git add .</div>
 
-        <div className='cmdline' onClick={(ev) => {copyCode(`git commit -m "${comments}`)}}>git commit -m "{comments}"</div>
+        <div className='cmdline' onClick={(ev) => {copyCode(`git commit -m "${comments}"`)}}>git commit -m "{comments}"</div>
 
         <div className='cmdline' onClick={(ev) => {copyCode(`git push origin main`)}}>git push origin main</div>
 

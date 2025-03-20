@@ -1,0 +1,181 @@
+html {
+  background-color: #212832;
+
+}
+
+#title {
+  font-family: 'GSansBold';
+  color: #F5F5F5;
+  
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.maindiv {
+  width: 50px;
+  height: 50px;
+
+  background-color: #212832;
+}
+
+#mainDiv-display {
+  width: calc(100% - 20px);
+  height: calc(100% - 13rem - 50px);
+  max-width: 800px;
+
+  background-color: #212832;
+
+  border-radius: 30px;
+
+  background: #212832;
+  box-shadow:  20px 20px 60px #1c222b,
+               -20px -20px 60px #262e3a;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px
+}
+
+#type-selection {
+  min-width: 150px;
+  height: 40px;
+
+  font-size: 16px;
+  color: #F5F5F5;
+  font-family: 'GSansBold';
+
+  background-color: rgb(49, 71, 94, 0.5);
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 0px 10px 0px 10px !important;
+
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+option {
+  min-width: 150px;
+  height: 40px;
+
+  font-size: 16px;
+  color: #F5F5F5;
+  font-family: 'GSansBold';
+
+  background-color: rgb(49, 71, 94, 1);
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 0px 10px 0px 10px
+}
+
+#generatorRender {
+  width: calc(100% - 20px);
+  height: calc(100% - 70px - 10px);
+
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  background-color: transparent;
+
+  overflow-y: scroll;
+}
+#generatorRender::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 1170px) {
+  html {
+    background-color: #212832;
+  
+  }
+  
+  #title {
+    font-family: 'GSansBold';
+    color: #F5F5F5;
+    
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .maindiv {
+    width: 50px;
+    height: 50px;
+  
+    background-color: #212832;
+  }
+  
+  #mainDiv-display {
+    width: calc(100% - 20px);
+    height: calc(100% - 8rem - 50px);
+    max-width: 800px;
+  
+    background-color: #212832;
+  
+    border-radius: 30px;
+  
+    background: #212832;
+    box-shadow:  20px 20px 60px #1c222b,
+                 -20px -20px 60px #262e3a;
+  
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px
+  }
+  
+  #type-selection {
+    min-width: 150px;
+    height: 40px;
+  
+    font-size: 16px;
+    color: #F5F5F5;
+    font-family: 'GSansBold';
+  
+    background-color: rgb(49, 71, 94, 0.5);
+  
+    border: none;
+    border-radius: 10px;
+  
+    padding: 0px 10px 0px 10px !important;
+  
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  option {
+    min-width: 150px;
+    height: 40px;
+  
+    font-size: 16px;
+    color: #F5F5F5;
+    font-family: 'GSansBold';
+  
+    background-color: rgb(49, 71, 94, 1);
+  
+    border: none;
+    border-radius: 10px;
+  
+    padding: 0px 10px 0px 10px
+  }
+  #generatorRender {
+    width: calc(100% - 40px);
+    height: calc(100% - 100px - 20px);
+  
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  
+    background-color: transparent;
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GitHub Cmd Generator",
+  "name": "GitHub Cmd Generator",
   "icons": [
     {
       "src": "favicon.ico",

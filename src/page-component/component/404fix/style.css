@@ -1,0 +1,30 @@
+
+ol {
+  color: #F5F5F5;
+  font-size: 1.3rem;
+  font-family: 'GSansRegular';
+
+  background-color: transparent;
+}
+li {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.important {
+  color: #007aff
+}
+
+.href {
+  color: #F5F5F5;
+
+  background-color: rgb(49, 71, 94, 0.5);
+
+  padding: 5px 10px 5px 10px;
+
+  border-radius: 10px;
+
+  margin: 0px 5px 0px 5px;
+
+  cursor: pointer
+}

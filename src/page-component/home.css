@@ -115,7 +115,7 @@ option {
   }
   
   #mainDiv-display {
-    width: calc(100% - 20px);
+    width: calc(100% - 20px - 10px);
     height: calc(100% - 8rem - 50px);
     max-width: 800px;
   
@@ -130,7 +130,7 @@ option {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 10px
+    bottom: 20px
   }
   
   #type-selection {

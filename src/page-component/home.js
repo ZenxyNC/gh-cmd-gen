@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import Notfound from './component/404fix/component';
 import Deployment from './component/deployment/component';
-import Commit from './component/commmit/component';
+import Commit from './component/commit/component';
 
 export default function Home() {
   const [generatorType, setGeneratorType] = useState('404fix')

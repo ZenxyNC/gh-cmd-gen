@@ -1,7 +1,7 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 
-export default function Commit() {
+export default function Commit({ userCopied }) {
   const [comments, setComments] = useState("A new deploy.");
 
   function copyCode(code) {
@@ -10,7 +10,8 @@ export default function Commit() {
     const handleCopy = async () => {
       try {
         await navigator.clipboard.writeText(textToCopy);
-        alert('Copied!')
+        
+        userCopied();
       } catch (err) {
         console.error("Failed to copy text: ", err);
       }
@@ -18,6 +19,12 @@ export default function Commit() {
 
     handleCopy()
   }
+
+    useEffect(() => {
+      if(comments.trim() === "") {
+        setComments('A new deploy.')
+      }
+    }, [comments])
 
   return (
     <>

@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './style.css'
 
-export default function Deployment() {
+export default function Deployment({ userCopied }) {
   const [ghName, setGhName] = useState('zentech');
-  const [repoName, setRepoName] = useState('ZenProject');
-  const [comments, setComments] = useState('First deploy.')
+  const [repoName, setRepoName] = useState('zenproject');
+  const [comments, setComments] = useState('First deployment.')
 
   function copyCode(code) {
     const textToCopy = code;
@@ -12,7 +12,7 @@ export default function Deployment() {
     const handleCopy = async () => {
       try {
         await navigator.clipboard.writeText(textToCopy);
-        alert("Copied!");
+        userCopied();
       } catch (err) {
         console.error("Failed to copy text: ", err);
       }
@@ -20,6 +20,18 @@ export default function Deployment() {
 
     handleCopy()
   }
+
+  useEffect(() => {
+    if(ghName.trim() === "") {
+      setGhName('zentech')
+    }
+    if(repoName.trim() === "") {
+      setRepoName('zenproject')
+    }
+    if(comments.trim() === "") {
+      setComments('First deployment.')
+    }
+  }, [ghName, repoName, comments])
 
   return (
     <>

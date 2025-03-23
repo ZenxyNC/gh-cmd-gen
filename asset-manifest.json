@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gh-cmd-gen/static/css/main.1000374a.css",
-    "main.js": "/gh-cmd-gen/static/js/main.ae57416a.js",
+    "main.js": "/gh-cmd-gen/static/js/main.c422a388.js",
     "static/js/453.5ca178d4.chunk.js": "/gh-cmd-gen/static/js/453.5ca178d4.chunk.js",
     "static/media/ProductSans-Regular.ttf": "/gh-cmd-gen/static/media/ProductSans-Regular.2765c69613690b1b9c03.ttf",
     "static/media/ProductSans-Thin.ttf": "/gh-cmd-gen/static/media/ProductSans-Thin.cc886c2747bf6f2c4888.ttf",
@@ -11,11 +11,11 @@
     "static/media/ProductSans-Black.ttf": "/gh-cmd-gen/static/media/ProductSans-Black.99679fcb879a842df8c5.ttf",
     "index.html": "/gh-cmd-gen/index.html",
     "main.1000374a.css.map": "/gh-cmd-gen/static/css/main.1000374a.css.map",
-    "main.ae57416a.js.map": "/gh-cmd-gen/static/js/main.ae57416a.js.map",
+    "main.c422a388.js.map": "/gh-cmd-gen/static/js/main.c422a388.js.map",
     "453.5ca178d4.chunk.js.map": "/gh-cmd-gen/static/js/453.5ca178d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1000374a.css",
-    "static/js/main.ae57416a.js"
+    "static/js/main.c422a388.js"
   ]
 }

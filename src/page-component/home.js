@@ -30,14 +30,14 @@ export default function Home() {
       />
       <div id='title'>
         <span style={{ fontSize: '1.5rem' }}>GitHub</span><br/>
-        <span style={{ fontSize: '3rem' }}>Command Generator</span>
+        <span style={{ fontSize: '3rem' }}>Command Helper</span>
       </div>
       <div className='maindiv' id='mainDiv-display'>
         <select id="type-selection" value={generatorType} onChange={handleGeneratorChange}>
           <option value='404fix'>404 Fix</option>
           <option value='deployment'>Deployment</option>
           <option value='commit'>Commit</option>
-        </select>
+        </select><br/>
 
         <div id='generatorRender'>
           {generatorType === '404fix' ? <Notfound /> : ''}
